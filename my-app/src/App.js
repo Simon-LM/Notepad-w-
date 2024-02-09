@@ -13,8 +13,6 @@ import Footer from "./components/Footer/footer";
 import About from "./pages/About/about";
 import Error404 from "./pages/Error404/error404";
 
-// import logo from "./assets/icons/logo2.png";
-
 // function App() {
 // 	return (
 // 		<div className="App">
@@ -39,12 +37,7 @@ function App() {
 	return (
 		<Router>
 			<main>
-				{" "}
 				<Header />
-				{/* <img src={logo} className="App-logo" alt="logo" /> */}
-				<h1 className="logo-name">
-					Notepad-<span className="logo-with">w/</span>#
-				</h1>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="*" element={<Navigate to="/error404" />} />

@@ -1,7 +1,7 @@
 /** @format */
 
 .App {
-	text-align: center;
+	text-align: center left;
 }
 
 .App-logo {
@@ -10,10 +10,10 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		transform-origin: top left;
-		animation: App-logo-spin infinite 4s linear;
-	}
+	// .App-logo {
+	// 	transform-origin: top left;
+	// 	animation: App-logo infinite 4s linear;
+	// }
 }
 
 .App-header {
@@ -31,12 +31,12 @@
 	color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo {
 	0% {
 		transform: scale3d(1, 1, 1);
 	}
 	50% {
-		transform: scale3d(1, 0.96, 0.04);
+		transform: scale3d(1, 0.96, 0.4);
 	}
 	100% {
 		transform: scale3dz(1, 1, 1);
